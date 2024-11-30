@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+
+}
+
+
+.inner{
+    height: 100px;
+    width: 100vw;
+    /* background-color: aqua; */
+    display: flex;
+
+}
+
+.inner>.title{
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+
+}
+
+.link{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    text-decoration: none;
+    gap: 150px;
+    /* background-color: brown; */
+    justify-content: space-evenly;
+}
+
+.link a{
+    text-decoration-line: none;
+
+}
+
+.homepage{
+    height: 100vh;
+    margin-top: 30px;
+    background-color: aqua;
+    background-image: url(https://images.pexels.com/photos/14973610/pexels-photo-14973610/free-photo-of-black-volkswagen-on-parking-lot.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.homepage>h1{
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.homepage>h3{
+    color: white;
+}
+
+
+.option{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    justify-content: space-evenly;
+}
+
+.box{
+    margin: 30px;
+}
